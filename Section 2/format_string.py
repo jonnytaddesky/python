@@ -14,10 +14,6 @@ print("My name is {} and I'm {}".format(my_name, my_age))
 
 
 pi = 3.1415
-pi
-
-
-print("pi equals {pi:1.2f}".format(pi=pi))
 
 
 print("pi equals {pi:1.2f}".format(pi=pi))
