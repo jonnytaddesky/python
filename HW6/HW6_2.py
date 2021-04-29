@@ -8,9 +8,10 @@ class Calculator:
 
     def multiply(self, a, b):
         return a * b
-    
+
     def divide(self, a, b):
         return int(a / b)
+
 
 calculator = Calculator()
 print(calculator.add(10, 5))

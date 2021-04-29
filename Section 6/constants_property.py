@@ -1,7 +1,7 @@
 class Character():
     MAX_SPEED = 100
 
-    def __init__(self, race, damage = 10):
+    def __init__(self, race, damage=10):
         self.damage = damage
 
         self.__race = race
@@ -32,6 +32,7 @@ class Character():
             self._current_speed = 100
         else:
             self._current_speed = current_speed
+
 
 # print(Character.MAX_SPEED)
 c = Character('Elf')

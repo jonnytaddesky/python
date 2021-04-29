@@ -30,7 +30,7 @@ import locale
 # print(datetime.max)
 # print(datetime.min)
 
-now  = datetime.now()
+now = datetime.now()
 # print(now)
 # print(now.year)
 # print(now.month)
@@ -56,7 +56,7 @@ now  = datetime.now()
 # print(now.strftime('%Y-%m-%d (%a)'))
 # print(now.strftime('%Y %B %d number day (%A)'))
 
-delta1 = timedelta(days = 3, hours=2, minutes=10)
+delta1 = timedelta(days=3, hours=2, minutes=10)
 print(delta1)
 
 delta2 = timedelta(days=2, hours=1, minutes=5)
@@ -76,4 +76,3 @@ print(my_age)
 wife_birthday = date(1996, 8, 4)
 am_i_older = my_birthday < wife_birthday
 print(am_i_older)
-

@@ -34,12 +34,14 @@ class Point():
     def __repr__(self):
         return f"Point({self.x}, {self.y})"
 
+
 a = Point(1, 2)
 b = copy.copy(a)
 a.x = 3
 print(a)
 print(b)
 print()
+
 
 class Line():
 
@@ -62,6 +64,7 @@ class Line():
             setattr(result, k, copy.deepcopy(v, memo))
         return result
 
+
 l1 = Line(a, b)
 l2 = copy.copy(l1)
 
@@ -82,5 +85,3 @@ l1.p1.x = 6
 
 print(l1.p1)
 print(l2.p1)
-
-

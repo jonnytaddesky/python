@@ -14,6 +14,7 @@
 
 greeting = 'Hello from the global scope'
 
+
 def greet(greeting):
     print(f'Greet in func1: {greeting}')
 
@@ -25,6 +26,7 @@ def greet(greeting):
         greeting = 'Hello from local scope'
         print(greeting)
     nested()
+
 
 greet('test')
 print(greeting)

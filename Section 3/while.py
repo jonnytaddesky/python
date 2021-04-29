@@ -1,4 +1,4 @@
-# x = 0 
+# x = 0
 
 # while x < 3:
 #     print(f'x equals {x}')
@@ -12,7 +12,7 @@
 #     print('Condition is not met')
 
 
-vals = [1,2,3,4,5,6,7,8,9]
+vals = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 sum = 0
 

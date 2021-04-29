@@ -1,6 +1,7 @@
-prices = {"Strawberries" : 1.5, "Banana" : 0.5, "Mango" : 2.5,
-		"Blueberries" : 1, "Raspberries" : 1, "Apple" : 1.75,
-		"Pineapple" : 3.5}
+prices = {"Strawberries": 1.5, "Banana": 0.5, "Mango": 2.5,
+          "Blueberries": 1, "Raspberries": 1, "Apple": 1.75,
+          "Pineapple": 3.5}
+
 
 class Beverage:
     def __init__(self, ingredients):
@@ -17,6 +18,7 @@ class Beverage:
     def get_name(self):
         lst = sorted([i.replace('ies', 'y') for i in self.ingredients])
         return f'{" ".join(lst)} {"Fusion" if len(lst) > 1 else "Smoothie"}'
+
 
 b1 = Beverage(['Banana'])
 print(b1.ingredients)

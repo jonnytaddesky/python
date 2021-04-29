@@ -44,5 +44,3 @@ print(list(filter(lambda age: age >= 18, ages)))
 # multiplayer = lambda x, y: x * y
 
 # print(multiplayer(2, 3))
-
-

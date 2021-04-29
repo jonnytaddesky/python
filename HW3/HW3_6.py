@@ -10,11 +10,9 @@ hand_cards = ["J_D", "3_D"]
 
 # for i in table_cards:
 #     table_suites.append(i[-1])
-    
+
 # for i in hand_cards:
 #     hand_suites.append(i[-1])
-
-
 
 
 # print(table_suites)
@@ -25,15 +23,13 @@ hand_cards = ["J_D", "3_D"]
 # flush = False
 
 # for suit in 'CHSD':
-#     if suites_in_game.count(suit) >= 5:        
+#     if suites_in_game.count(suit) >= 5:
 #         flush = True
 
 # if flush:
 #     print('Flush!')
 # else:
 #     print('No Flush!')
-
-
 
 
 # table_suites = [i[-1] for i in table_cards]
@@ -49,7 +45,6 @@ hand_cards = ["J_D", "3_D"]
 #     print('Flush!')
 # else:
 #     print('No Flush!')
-
 
 
 # делать так не надо

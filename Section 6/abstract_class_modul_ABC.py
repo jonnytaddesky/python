@@ -2,6 +2,7 @@ from abc import ABC
 from abc import abstractmethod
 import math
 
+
 class Shape(ABC):
     def __init__(self):
         super().__init__()
@@ -22,8 +23,9 @@ class Shape(ABC):
     def drag(self):
         print('basic dragging functionality')
 
+
 class Triangle(Shape):
-    def __init__(self, a,b,c):
+    def __init__(self, a, b, c):
         self.a = a
         self.b = b
         self.c = c
@@ -42,6 +44,7 @@ class Triangle(Shape):
     def drag(self):
         super().drag()
         print('Additional actions')
+
 
 t = Triangle(10, 10, 10)
 print(t.perimeter())

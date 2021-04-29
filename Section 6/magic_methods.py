@@ -22,5 +22,6 @@ class Road():
     def __del__(self):
         print(f'The road has been destroyed')
 
+
 r = Road(100)
 print(len(r))

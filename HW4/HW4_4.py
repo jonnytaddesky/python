@@ -6,6 +6,7 @@ def any_duplicates(square):
     # else:
     #     print(True)
 
-    print(True if sum([x+y+z for x,y,z in square]) != 45 else False)
+    print(True if sum([x+y+z for x, y, z in square]) != 45 else False)
+
 
 any_duplicates([[8, 9, 2], [6, 5, 1], [3, 7, 4]])

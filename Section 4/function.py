@@ -76,6 +76,7 @@ def save_players(**kwargs):
     for k, v in kwargs.items():
         print(f'Player {k} has rating {v}')
 
+
 save_players(Carlsen=2800, Giri=2780)
 
 

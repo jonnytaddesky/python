@@ -18,9 +18,11 @@ class Shape:
         # print('Calc perimeter')
         raise NotImplementedError('Can`t instantiate an abstract class')
 
+
 shape = Shape()
 print(shape.draw())
- 
+
+
 class Rectangle(Shape):
 
     def __init__(self, width, height):
@@ -63,7 +65,6 @@ class Triangle(Shape):
         return f'Drawing triangle with sides = {self.a}, {self.b}, {self.c}'
 
 
-
 rect = Rectangle(10, 20)
 # print(rect.area())
 # print(rect.perimeter())
@@ -76,4 +77,3 @@ triangle = Triangle(3, 4, 5)
 
 for shape in [rect, triangle]:
     print(shape.draw())
-    

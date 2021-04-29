@@ -1,4 +1,4 @@
-x="hello, my name is Artem"
+x = "hello, my name is Artem"
 
 
 print(len(x))
@@ -87,7 +87,6 @@ print(type(split))
 print(split)
 split = h.split('e')
 print(split)
-
 
 
 data = "12;10;8;10"

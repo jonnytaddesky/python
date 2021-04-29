@@ -25,7 +25,7 @@
 
 # players = [('Carlsen', 2842), ('Caruana', 2822), ('Mamedyarov', 2801), ('Giri', 2780)]
 # print(all(rating > 2700 for _, rating in players)) # fasters, если первый false значит сразу false
-# print(all([rating > 2700 for _, rating in players])) # проходит по цыклу, а потом уже ищет 
+# print(all([rating > 2700 for _, rating in players])) # проходит по цыклу, а потом уже ищет
 
 # any_true1 = any([False, False, True])
 # any_true2 = any([False, False, False])
@@ -63,5 +63,7 @@ print(code)
 c = chr(code)
 print(c)
 
-[print('', x, end='\t') for x in "Hello World"];print()
-[print(ord(x), end='\t') for x in "Hello World"];print()
+[print('', x, end='\t') for x in "Hello World"]
+print()
+[print(ord(x), end='\t') for x in "Hello World"]
+print()

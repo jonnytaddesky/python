@@ -46,6 +46,6 @@ print(1 > 2 or 2 > 3)
 is_admin = False
 if not is_admin:
     print('not an admin')
-    
+
 if is_admin == False:
     print('not an admin')

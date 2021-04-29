@@ -4,7 +4,7 @@ class Vehicle:
         self.position = position
 
     def travel(self, destination):
-        route = calculate_route(source=self.position, to = destination)
+        route = calculate_route(source=self.position, to=destination)
         self.move_along(route)
 
     def calculate_route(self, source, to):
@@ -13,8 +13,10 @@ class Vehicle:
     def move_along(self, route):
         print('moving')
 
+
 class Airplane(Vehicle):
     pass
+
 
 class RadioMixin:
     def __init__(self):
@@ -24,6 +26,7 @@ class RadioMixin:
         self.radio.set_station(station)
         self.radio.play()
 
+
 class Radio:
     def set_station(self, station):
         self.station = station
@@ -31,13 +34,16 @@ class Radio:
     def play(self):
         print(f'Playing {self.station}')
 
+
 class Car(Vehicle, RadioMixin):
     def __init__(self):
         Vehicle.__init__(self, (10, 20))
         RadioMixin.__init__(self)
 
+
 car = Car()
 car.turn_on('Friday FM')
+
 
 class ToDictMixin(object):
     def to_dict(self):
@@ -61,14 +67,16 @@ class ToDictMixin(object):
         else:
             return value
 
+
 class BinaryTree(ToDictMixin):
-    def __init__(self, value, left = None, right = None):
+    def __init__(self, value, left=None, right=None):
         self.value = value
         self.left = left
         self.right = right
 
-tree = BinaryTree(10, 
-                    left = BinaryTree(7, right = BinaryTree(9)),
-                    right = BinaryTree(13, left = BinaryTree(11))
-                    )
+
+tree = BinaryTree(10,
+                  left=BinaryTree(7, right=BinaryTree(9)),
+                  right=BinaryTree(13, left=BinaryTree(11))
+                  )
 print(tree.to_dict())

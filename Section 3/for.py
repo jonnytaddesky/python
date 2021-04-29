@@ -1,4 +1,4 @@
-numbers = [1,2,3,4,5]
+numbers = [1, 2, 3, 4, 5]
 print(numbers)
 
 for i in numbers:
@@ -22,7 +22,7 @@ for i in range(1, 6):
     else:
         print(f'{i} is odd')
 
-numbers = [1,3,5,7,9]
+numbers = [1, 3, 5, 7, 9]
 for i, item in enumerate(numbers):
     numbers[i] *= 2
 print(numbers)
@@ -62,9 +62,9 @@ players = dict(Carlsen=2842, Caruana=2822, Mamedyarov=2801)
 for v in players.values():
     print(v)
 
-#find all pairs sum of which equals 0
-list1 = [2,4,-5,6,8,-2]
-list2 = [2,-6,8,3,5,-2]
+# find all pairs sum of which equals 0
+list1 = [2, 4, -5, 6, 8, -2]
+list2 = [2, -6, 8, 3, 5, -2]
 pairs = []
 
 for x in list1:

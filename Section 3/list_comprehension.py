@@ -31,8 +31,8 @@
 # titles = ['GM' if x >= 2500 else 'MM' for x in ratings]
 # print(titles)
 
-list1 = [2,4,-5,6,8,-2]
-list2 = [2,-6,8,3,5,-2]
+list1 = [2, 4, -5, 6, 8, -2]
+list2 = [2, -6, 8, 3, 5, -2]
 
 pairs = []
 for x in list1:
@@ -43,6 +43,6 @@ for x in list1:
 print(pairs)
 
 
-pairs = [(x, y) for x in list1 for y in list2 if x + y == 0 ]
+pairs = [(x, y) for x in list1 for y in list2 if x + y == 0]
 
 print(pairs)

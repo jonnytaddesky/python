@@ -3,7 +3,7 @@ cups = 6
 
 if count_cups < cups:
     print("Бонуcных чашек: 0")
-elif count_cups%cups == 0:
+elif count_cups % cups == 0:
     bonus_count_cups = count_cups / cups
     print(f"Бонуcных чашек: {int(bonus_count_cups)}")
 else:

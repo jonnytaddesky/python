@@ -11,7 +11,7 @@ if 3 < 2:
 
 
 is_admin = True
-if is_admin :
+if is_admin:
     print("It's admin, look at him!")
 
 

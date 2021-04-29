@@ -34,6 +34,7 @@ class Date:
     def millenium_s(month, day):
         return Date(month, day, 2000)
 
+
 d1 = Date.millenium_c(6, 9)
 d2 = Date.millenium_s(6, 9)
 
@@ -41,7 +42,7 @@ print(d1.display())
 print(d2.display())
 
 # class DateTime(Date):
-    
+
 #     def display(self):
 #         return f'{self.month}-{self.day}-{self.year} - 00:00:00PM'
 
@@ -68,7 +69,7 @@ print(d2.display())
 #             value = bytes_of_str
 #         return value
 
-    
+
 #     @staticmethod
 #     def to_bytes(bytes_of_str):
 #         if isinstance(bytes_of_str, str):

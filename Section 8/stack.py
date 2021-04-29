@@ -28,7 +28,8 @@ class MyStack:
         result = self.array[self.index]
         self.index -= 1
         return result
-    
+
+
 stack = MyStack()
 stack.push(1)
 stack.push(2)

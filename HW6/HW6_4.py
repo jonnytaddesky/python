@@ -9,12 +9,15 @@ class Pizza:
     @classmethod
     def hawaiian(cls):
         return cls(['ham', 'pineapple'])
+
     @classmethod
     def meat_festival(cls):
         return cls(['beef', 'meatball', 'bacon'])
+
     @classmethod
     def garden_feast(cls):
         return cls(['spinach', 'olives', 'mushroom'])
+
 
 p1 = Pizza(['spinach', 'olives', 'mushroom'])
 p2 = Pizza.meat_festival()

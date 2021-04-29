@@ -7,7 +7,8 @@ players = {
 }
 
 
-players = dict(Carlsen=2842, Caruana=2822, Mamedyarov=2801, Ding=2797, Giri=2780)
+players = dict(Carlsen=2842, Caruana=2822,
+               Mamedyarov=2801, Ding=2797, Giri=2780)
 print(players)
 
 top1 = players['Carlsen']
@@ -50,7 +51,7 @@ players_copy = players.copy()
 print(players_copy)
 
 for k, v in players.items():
-    print(k,v)
+    print(k, v)
 
 items = players.items()
 print(type(items))

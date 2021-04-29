@@ -21,6 +21,7 @@ class Character:
     def __init__(self):
         self.race = 'Elf'
 
+
 c = Character()
 
 
@@ -28,4 +29,3 @@ d = Character()
 d.race = 'Ork'
 print(c.race)
 print(d.race)
-

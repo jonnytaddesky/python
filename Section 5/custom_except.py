@@ -30,14 +30,16 @@ import math
 class InvalidTriangleError(Exception):
     """Raised when a triangle has invalid sides"""
 
+
 def calc_square(ab, bc, ac):
-    if ab <= 0 or bc <= 0 or  ac <= 0:
+    if ab <= 0 or bc <= 0 or ac <= 0:
         raise InvalidTriangleError("One of the sides is less or equal to 0.")
 
     p = (ab + bc + ac) / 2
-    s = math.sqrt(p * (p - ab)* (p - bc) * (p - ac))
+    s = math.sqrt(p * (p - ab) * (p - bc) * (p - ac))
 
     return s
+
 
 try:
     square = calc_square(10, 8, 8)

@@ -11,9 +11,9 @@ class Character():
     def hit(self, damage):
         self.health -= damage
 
-
     def is_dead(self):
         return self.health == Character.dead_health
+
 
 unit = Character('Ork')
 

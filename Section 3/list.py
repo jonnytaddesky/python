@@ -1,4 +1,4 @@
-int_list = [1,2,3]
+int_list = [1, 2, 3]
 
 
 mixes_list = [1, 2.0, 'string']
@@ -59,13 +59,13 @@ letters.sort()
 print(letters)
 
 
-numbers = [3,2,8,5,0,3,4,1,1]
+numbers = [3, 2, 8, 5, 0, 3, 4, 1, 1]
 print(numbers)
 numbers.sort()
 print(numbers)
 
 
-numbers = [3,2,8,5,0,3,4,1,1]
+numbers = [3, 2, 8, 5, 0, 3, 4, 1, 1]
 numbers.reverse()
 print(numbers)
 

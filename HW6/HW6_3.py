@@ -3,11 +3,12 @@ class Employee:
         self.first_name = first_name
         self.last_name = last_name
         self.salary = salary
-    
+
     @classmethod
     def from_string(cls, string):
         first_name, last_name, salary = string.split('-')
         return cls(first_name, last_name, salary)
+
 
 emp1 = Employee('John', 'Smith', 6000)
 print(emp1.first_name)

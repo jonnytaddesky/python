@@ -27,7 +27,7 @@
 # class Carnivour(Animal):
 #     def set_health(self, health):
 #         print('set in carnivour')
-    
+
 # class Mammal(Animal):
 #     def set_health(self, health):
 #         print('set in mammal')
@@ -40,7 +40,7 @@
 # class Carnivour(Animal):
 #     def set_health(self, health):
 #         print('set in carnivour')
-    
+
 # class Mammal(Animal):
 #     def set_health(self, health):
 #         print('set in mammal')
@@ -61,7 +61,7 @@
 #     def set_health(self, health):
 #         super().set_health(health)
 #         print('set in carnivour')
-    
+
 # class Mammal(Animal):
 #     def set_health(self, health):
 #         super().set_health(health)
@@ -87,12 +87,14 @@ class Animal:
     def hit(self, damage):
         self.health -= damage
 
+
 class Carnivour(Animal):
 
     def __init__(self):
         super().__init__()
-        self.legs = 4    
-    
+        self.legs = 4
+
+
 c = Carnivour()
 c.hit(10)
 

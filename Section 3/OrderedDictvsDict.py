@@ -1,5 +1,6 @@
+from collections import OrderedDict
 d1 = {}
-d1['a'] = 'A' 
+d1['a'] = 'A'
 d1['b'] = 'B'
 d1['c'] = 'C'
 
@@ -14,15 +15,12 @@ d3['b'] = 'B'
 d3['c'] = 'C'
 
 
-print(d1==d2)
-print(d1==d3)
+print(d1 == d2)
+print(d1 == d3)
 
 
 for k, v in d1.items():
     print(k, v)
-
-
-from collections import OrderedDict
 
 
 d1 = OrderedDict()
@@ -41,8 +39,8 @@ d3['b'] = 'B'
 d3['c'] = 'C'
 
 
-print(d1==d2)
-print(d1==d3)
+print(d1 == d2)
+print(d1 == d3)
 
 
 for k, v in d1.items():

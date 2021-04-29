@@ -1,10 +1,11 @@
-x=3
+import math
+x = 3
 
 print(x)
 
-x=5
+x = 5
 
-y=2
+y = 2
 
 print(x+y)
 
@@ -12,33 +13,32 @@ print(x+x)
 
 print(y+y)
 
-x=5
+x = 5
 print(x)
-x=x+x
+x = x+x
 print(x)
 
 
 print(type(x))
 
 
-x=3.14
+x = 3.14
 print(type(x))
 
 
-z='abc'
+z = 'abc'
 
 
 print(z)
 
-#x+z
+# x+z
 
 
-a=10
-b=5
-c=7
-p=(a+b+c)/2
+a = 10
+b = 5
+c = 7
+p = (a+b+c)/2
 print(p)
 
-import math
 area = math.sqrt(p*(p-a)*(p-b)*(p-c))
 print(area)

@@ -28,8 +28,7 @@ print(lines)
 print(len(lines))
 
 
-
-sample_file  = open(r"C:\Users\Artem\JupyterRoot\sample.txt")
+sample_file = open(r"C:\Users\Artem\JupyterRoot\sample.txt")
 
 # or open with double back slasher file = open(r'C:\\User\\Artem\\JupyterRoot\\sample.txt')
 #  on linux, we use slashes, so there`s no need r'C:'
