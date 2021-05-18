@@ -63,3 +63,14 @@ n = next(rand_seq)
 print(n)
 n = next(rand_seq)
 print(n)
+
+
+my_list = [1, 2, 3, 4]
+squares = [x**2 for x in my_list]
+print(squares)
+
+
+squares = (x**2 for x in my_list)
+print(squares)
+for i in squares:
+    print(i)
